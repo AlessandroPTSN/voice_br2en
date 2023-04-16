@@ -10,7 +10,7 @@ O código captura o áudio em português, escreve ele em texto, traduz para ingl
 `speech_recognition`: uma biblioteca que permite reconhecer fala a partir de um microfone ou arquivo de áudio. Ela disponibiliza diversos serviços de reconhecimento de fala, como o Google Cloud Speech API e o CMU Sphinx.
 A partir dele, foi possível utilizar a função `recognizer()`, que permite reconhecer fala a partir de um microfone ou arquivo de áudio. Ela disponibiliza diversos métodos para processar a fala e retornar o texto correspondente.
 
-Após de converter o áudio para texto, foi utilizado a função `Translator.translate()` da biblioteca `googletrans`: uma função da biblioteca googletrans que permite traduzir um texto de um idioma para outro utilizando a API de tradução do Google Translate.
+Após de converter o áudio para texto, foi utilizado a função `Translator.translate()` da biblioteca `googletrans`: uma função da biblioteca googletrans que permite traduzir um texto de um idioma para outro utilizando a API de tradução do Google Translate. (OBS: extremamente importante utilizar a versão googletrans==3.1.0a0).
 
 E a partir do pacote `torch` (usado para treinar modelos de redes neurais) foi utilizado a função `torch.hub.load()`: uma função da biblioteca Torch que permite carregar modelos pré-treinados a partir de repositórios públicos. No código, ela é utilizada para carregar o modelo de síntese de fala Silero TTS, que é utilizado para gerar a fala resultante da tradução.
 
