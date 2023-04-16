@@ -18,7 +18,9 @@ E por fim, foi utilizado a função `sounddevice.play()`: uma função da biblio
 
 ## Demais informações 
 
-O arquivo 'Import_models.py' é responsável por fornecer a versão do Python e dos pacotes utilizados + a importação do modelo utilizado.
+O arquivo 'Import_models.py' é responsável por fornecer a versão do Python e dos pacotes utilizados + a importação do modelo utilizado.  
+O arquivo 'test_model_voices.py' é apenas para testar se o modelo foi importado corretamente.  
+Se tudo estiver configurado certo, pode rodar o arquivo 'voice_br2en.py', responsável pela tradução de voz.
 
 Devo um enorme agradecimento ao [Snakers4](https://github.com/snakers4/silero-models), que deixou os modelos TTS silero pré treinados! 
 
